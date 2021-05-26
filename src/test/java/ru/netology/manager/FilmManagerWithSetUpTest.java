@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class FilmManagerTestWithSetup {
+public class FilmManagerWithSetUpTest {
     FilmManager manager = new FilmManager();
     Film first = new Film(1, 1, "first", 1, 1);
     Film second = new Film(2, 2, "second", 1, 1);
